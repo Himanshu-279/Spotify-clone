@@ -1,0 +1,52 @@
+# Environment variables (NEVER commit .env files)
+.env
+.env.local
+.env.*.local
+
+# Node modules (dependencies, very large)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# Build and dist files
+dist/
+build/
+.next/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Uploads (local testing only)
+uploads/
+
+# OS files
+.AppleDouble
+.LSOverride
+._*
+
+# Misc
+.env.test
+.env.production.local
+coverage/
+.nyc_output/
